@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+
+    <style >
+      
+      .slider{
+        background:  url("images/batman1.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+
+    </style>
+  </head>
+  <body>   
+  
+  <!-- Imgagen de fondo -->
+  <!-- <section class="container-fluid slider d-flex justify-content-center align-items-center">
+    <h1 class="display-4">Bootstrap 4!</h1>
+  </section> -->
+  <!-- Imgagen de fondo -->
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active"  style="height: 100vh; background-size: cover;">
+        <img class="d-block img-fluid" src="images/land2.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>...</h3>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height: 100vh; background-size: cover;">
+        <img class="d-block img-fluid" src="images/land3.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>...</h3>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height: 100vh; background-size: cover;">
+        <img class="d-block img-fluid" src="images/land4.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>...</h3>
+          <p>...</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Carousel -->
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm sticky-top">  
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+    <img src="images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="Logo Bootstrap">
+    Bootstrap
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mr-auto ml-auto text-center">
+        <a class="nav-item nav-link active" href="index.html">Inicio</a>
+        <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+        <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+        <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <a href="#" class="btn btn-outline-primary mr-2">F</a>
+        <a href="#" class="btn btn-outline-danger" >Y</a>
+      </div>
+    </div>  
+  </nav>
+  <!-- Barra de navegación -->
+
+
+
+
+  <!-- Junbotron -->
+<div class="jumbotron mt-5 bg-inverse text-white rounded-0">
+  <div class="container">
+    <h1 class="display-3">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <div class="d-flex justify-content-between align-items-center">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+  </div>
+</div>  
+  <!-- Junbotron -->
+
+  <!-- Form -->
+  <section class="container">
+    <h3 class="text-uppercase text-center">Formulario de contacto</h3>
+    <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo.</p>
+
+    <div class="row">
+      <div class="col-6 offset-3">
+        <form action="#">
+          <div class="form-group row">
+            <label for="" class="col-2 col-form-label hidden-sm-down">Nombre:</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Ingresar nombre"></input>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="" class="col-2 col-form-label hidden-sm-down">Email:</label>
+            <div class="col-10">
+              <input class="form-control" type="text" placeholder="Ingresar correo electrónico"></input>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-10 offset-md-2 col-md-10">
+              <button type="submit" class="btn btn-primary col-12 col-md-5">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Form -->  
+
+  <section class="container">
+     <p class="mt-5 text-center font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <p class="text-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo. In vitae feugiat lorem, non molestie ex. Mauris at felis condimentum nisl fermentum tristique. Mauris consectetur ipsum elit, egestas tincidunt velit porttitor id. Duis feugiat vitae mi sed laoreet. Nam in malesuada tellus, varius aliquam arcu. Proin in elementum nunc, quis fermentum mauris. Vestibulum nec mauris id ante fringilla euismod. Suspendisse feugiat ullamcorper neque non auctor. Phasellus sit amet volutpat ipsum, vitae consectetur tortor. Proin augue magna, rhoncus non ullamcorper ut, auctor in elit. Praesent bibendum ex eget purus euismod dictum.</p>
+
+     <p class="text-justify float-left w-25 bg-success mr-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo. In vitae feugiat lorem, non molestie ex. Mauris at felis condimentum nisl fermentum tristique. Mauris consectetur ipsum elit, egestas tincidunt velit porttitor id. Duis feugiat vitae mi sed laoreet. Nam in malesuada tellus, varius aliquam arcu. Proin in elementum nunc, quis fermentum mauris. Vestibulum nec mauris id ante fringilla euismod. Suspendisse feugiat ullamcorper neque non auctor. Phasellus sit amet volutpat ipsum, vitae consectetur tortor. Proin augue magna, rhoncus non ullamcorper ut, auctor in elit. Praesent bibendum ex eget purus euismod dictum.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo. In vitae feugiat lorem, non molestie ex. Mauris at felis condimentum nisl fermentum tristique. Mauris consectetur ipsum elit, egestas tincidunt velit porttitor id. Duis feugiat vitae mi sed laoreet. Nam in malesuada tellus, varius aliquam arcu. Proin in elementum nunc, quis fermentum mauris. Vestibulum nec mauris id ante fringilla euismod. Suspendisse feugiat ullamcorper neque non auctor. Phasellus sit amet volutpat ipsum, vitae consectetur tortor. Proin augue magna, rhoncus non ullamcorper ut, auctor in elit. Praesent bibendum ex eget purus euismod dictum.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo. In vitae feugiat lorem, non molestie ex. Mauris at felis condimentum nisl fermentum tristique. Mauris consectetur ipsum elit, egestas tincidunt velit porttitor id. Duis feugiat vitae mi sed laoreet. Nam in malesuada tellus, varius aliquam arcu. Proin in elementum nunc, quis fermentum mauris. Vestibulum nec mauris id ante fringilla euismod. Suspendisse feugiat ullamcorper neque non auctor. Phasellus sit amet volutpat ipsum, vitae consectetur tortor. Proin augue magna, rhoncus non ullamcorper ut, auctor in elit. Praesent bibendum ex eget purus euismod dictum.</p>
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra sem ac pulvinar commodo. In vitae feugiat lorem, non molestie ex. Mauris at felis condimentum nisl fermentum tristique. Mauris consectetur ipsum elit, egestas tincidunt velit porttitor id. Duis feugiat vitae mi sed laoreet. Nam in malesuada tellus, varius aliquam arcu. Proin in elementum nunc, quis fermentum mauris. Vestibulum nec mauris id ante fringilla euismod. Suspendisse feugiat ullamcorper neque non auctor. Phasellus sit amet volutpat ipsum, vitae consectetur tortor. Proin augue magna, rhoncus non ullamcorper ut, auctor in elit. Praesent bibendum ex eget purus euismod dictum.</p>
+  </section>
+
+
+
+   <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    
+    <script src="js/bootstrap.min.js"></script>   
+  </body>
+</html>
